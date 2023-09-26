@@ -25,6 +25,12 @@ const Component = () => {
     setYear(newValue);
   };
 
+  const initializeValue = () => {
+    setTotalDays("--");
+    setTotalMonths("--");
+    setTotalYears("--");
+  };
+
   const handleAge = (e) => {
     try {
       if (!day || !month || !year) {
@@ -49,6 +55,7 @@ const Component = () => {
     } catch (err) {
       window.alert(err.message);
       setIsValid(false);
+      initializeValue();
     }
   };
 
@@ -69,7 +76,6 @@ const Component = () => {
                 value={day}
                 onChange={handleDayChange}
                 placeholder="DD"
-                required
               />
             </label>
             <label htmlFor="" className="flex flex-col">
@@ -84,7 +90,6 @@ const Component = () => {
                 value={month}
                 onChange={handleMonthChange}
                 placeholder="MM"
-                required
               />
             </label>
             <label htmlFor="" className="flex flex-col">
@@ -97,7 +102,6 @@ const Component = () => {
                 value={year}
                 onChange={handleYearChange}
                 placeholder="YYYY"
-                required
               />
             </label>
           </div>
