@@ -8,6 +8,7 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
+    - [The screenshot](#the-screenshot)
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
@@ -31,6 +32,11 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 - **Bonus**: See the age numbers animate to their final number when the form is submitted
 
+### The screenshot
+
+![Dark Mode](./src/screenshots/screenshot-dark-mode.jpg)
+![Light Mode](./src/screenshots/screenshot-light-mode.jpg)
+
 ## My process
 
 ### Built with
@@ -52,11 +58,8 @@ Users should be able to:
 ### Useful resources
 
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - This helped me to familiarize more on the syntax used on tailwind. Definitely will use it more later on.
-- [Moment.js Documentatio](https://momentjs.com/docs/) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Moment.js Documentation](https://momentjs.com/docs/) - Amazing framework that helped me to manipulate the dates efficiently.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - LinkedIn - [My Linkedin Profile](https://www.linkedin.com/in/daeugenio/)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
