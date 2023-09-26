@@ -119,8 +119,8 @@ const Component = () => {
             </button>
           </div>
         </form>
-        <div className="ml-12">
-          <div className="font-bold text-8xl italic text-[#834CFE]">
+        <div className="ml-12 text-8xl xl:text-8xl lg:text-6xl md:text-4xl sm:text-3xl">
+          <div className="font-bold  italic text-[#834CFE] ">
             {totalYears}{" "}
             <span className="text-black">
               {parseInt(totalYears) === 1 || typeof totalYears === "string"
@@ -128,7 +128,7 @@ const Component = () => {
                 : " years"}
             </span>
           </div>
-          <div className="font-bold text-8xl italic text-[#834CFE]">
+          <div className="font-bold italic text-[#834CFE]">
             {totalMonths}
             <span className="text-black">
               {parseInt(totalMonths) === 1 || typeof totalMonths === "string"
@@ -136,7 +136,7 @@ const Component = () => {
                 : " months"}
             </span>
           </div>
-          <div className="font-bold text-8xl italic text-[#834CFE]">
+          <div className="font-bold italic text-[#834CFE]">
             {totalDays}{" "}
             <span className="text-black">
               {parseInt(totalDays) === 1 || typeof totalDays === "string"
